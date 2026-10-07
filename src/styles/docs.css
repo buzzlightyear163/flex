@@ -1,0 +1,64 @@
+/* The reference docs page only loads Geist + Geist Mono, so mono text there is Geist Mono. */
+.page--docs { --font-mono: 'Geist Mono', ui-monospace, monospace; }
+
+/* like the reference, this padding also overrides the .wrap side gutter */
+.docs { display: grid; grid-template-columns: 220px 1fr; gap: 56px; padding: 56px 0; }
+.docs__nav { position: sticky; top: 96px; align-self: start; display: flex; flex-direction: column; gap: 2px; }
+.docs__nav h5 { margin: 18px 0 6px; font: 500 11.5px var(--font-mono); color: var(--mute); letter-spacing: 0.08em; }
+.docs__nav a { padding: 6px 10px; border-radius: 7px; color: var(--dim); font-size: 14px; }
+.docs__nav a:hover { color: var(--ink); background: var(--panel); }
+
+.doc { max-width: 780px; }
+.doc h1 { font: 600 54px var(--font-sans); letter-spacing: -0.04em; }
+.doc__lead { margin: 14px 0 30px; padding-bottom: 30px; border-bottom: 1px solid var(--line); font-size: 18px; color: var(--dim); }
+.doc h2 { margin: 46px 0 12px; font: 600 26px var(--font-sans); letter-spacing: -0.02em; scroll-margin-top: 90px; }
+.doc p,
+.doc li { color: var(--dim); line-height: 1.8; }
+.doc p { margin: 10px 0; }
+.doc ul { margin: 10px 0 10px 20px; }
+.doc code { padding: 1px 6px; border: 1px solid var(--line-2); border-radius: 5px; background: var(--panel); font: 500 13px var(--font-mono); color: var(--ink); }
+.doc pre {
+  margin: 14px 0;
+  padding: 18px;
+  overflow: auto;
+  border: 1px solid var(--line-2);
+  border-radius: 12px;
+  background: var(--bg-2);
+  font: 500 13px/1.7 var(--font-mono);
+  color: #d6d6d6;
+}
+.doc pre .c { color: var(--mute); }
+.doc pre .k { color: var(--second); }
+.doc pre .s { color: var(--accent); }
+
+.dtable { margin: 14px 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; }
+.dtable > div {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 14px;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--dim);
+}
+.dtable > div:last-child { border: 0; }
+.dtable b { font: 500 13px var(--font-mono); color: var(--ink); }
+
+.note {
+  margin: 16px 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(var(--accent-rgb), 0.3);
+  border-radius: 12px;
+  background: rgba(var(--accent-rgb), 0.04);
+  color: var(--note-ink);
+  font-size: 14px;
+}
+
+.not-found { padding: 140px 0 40px; }
+.not-found h1 { font: 400 120px/0.9 var(--font-display); color: var(--cream); }
+.not-found p { margin: 18px 0 28px; color: var(--dim); font-size: 18px; }
+
+@media (max-width: 1000px) {
+  .docs { grid-template-columns: 1fr; }
+  .docs__nav { display: none; }
+}

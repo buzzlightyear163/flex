@@ -1,0 +1,50 @@
+/* Design tokens. Layout values follow the reference; the palette is RFLX's own
+   ("volt": electric lime on green-tinted black, violet second colour).
+   Canvas colours live in src/data/theme.ts — keep the two in sync. */
+:root {
+  --bg: #050706;
+  --bg-2: #080b09;
+  --panel: #0b0f0d;
+  --panel-2: #101512;
+  --line: #18201c;
+  --line-2: #232d28;
+  --line-hover: #36433c;
+
+  --ink: #e8efe9;
+  --cream: #e8efe9;
+  --dim: #98a39c;
+  --mute: #5f6a64;
+  --heading-dim: #4f5b55;
+  --corner: #b7c3bb;
+
+  --accent: #c8ff2e;
+  --accent-rgb: 200, 255, 46;
+  --accent-hover: #d8ff6a;
+  --accent-soft: rgba(var(--accent-rgb), 0.12);
+  --on-accent: #070906;
+  --second: #a48bff;
+  --second-rgb: 164, 139, 255;
+  --second-soft: rgba(var(--second-rgb), 0.14);
+  --red: #ff5a5a;
+  --amber: #ffb45c;
+  --white: #ffffff;
+  --paper: #eef3ef;
+  --note-ink: #e2f5c4;
+
+  --font-sans: 'Geist', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Space Mono', 'Geist Mono', ui-monospace, monospace;
+  --font-display: 'Archivo Black', Impact, sans-serif;
+  --font-round: 'Baloo 2', system-ui, sans-serif;
+
+  --wrap: 1240px;
+  --gutter: 28px;
+  --radius-lg: 16px;
+  --radius-md: 10px;
+  --header-h: 64px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: 16px;
+  }
+}

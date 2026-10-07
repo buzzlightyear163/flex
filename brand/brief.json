@@ -1,0 +1,37 @@
+{
+ "name": "RFLX",
+ "ticker": "$RFLX",
+ "chain": "Solana",
+ "preset": "hero",
+ "mark": "rflx-mark.svg",
+ "accent": "#C8FF2E",
+ "theme_vars": {
+  "bg": "radial-gradient(70% 95% at 80% 45%,#111B0D 0%,#080B08 55%,#050706 100%)",
+  "fg": "#E8EFE9",
+  "mute": "#8F9A93",
+  "panel": "rgba(9,13,10,.88)",
+  "dotc": "rgba(232,239,233,.10)"
+ },
+ "art": "dots",
+ "logo_style": "dots",
+ "dots": {
+  "grid": 42,
+  "field": "circle",
+  "mark_frac": 0.64
+ },
+ "name_underline": true,
+ "headline": "The reflex<br>for your agents<a>.</a>",
+ "banner_sub": "Typed decisions in microseconds. Pick, score or gate.",
+ "sub": "Your model drafts. RFLX picks. Typed answers in microseconds.",
+ "pills": [
+  [
+   "$RFLX",
+   "fill"
+  ],
+  [
+   "Launching soon on Solana",
+   "ghost"
+  ]
+ ],
+ "footer": "Choice · Score · Gate"
+}
