@@ -1,7 +1,7 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // Brand configuration. Everything that identifies the project lives here, so a
 // rebrand is one file: name, ticker, contract address and outbound links.
-// See BRANDING_TODO.md. Name: RFLX ("reflex"). Contract and links are still placeholders.
+// See BRANDING_TODO.md. Name: RFLX ("reflex"). Contract is the live pump.fun mint; the X link is still empty.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const site = {
@@ -11,11 +11,8 @@ export const site = {
   ticker: 'RFLX',
   /** Used in <title>-style strings and the footer. */
   slogan: 'the reflex that decides',
-  /**
-   * Token mint / contract address. 44 characters like a real pump.fun mint so the
-   * CA box wraps exactly like the reference. TODO(branding): set your real mint.
-   */
-  contract: 'RFLXxPLACEHOLDERxMINTxADDRESSx0000000000pump',
+  /** Token mint / contract address (pump.fun, Solana). Feeds the CA box and the buy/dex links. */
+  contract: 'C5rHymhU1aWPybt4U3dKttvDN5WXcCW2Z74uKeUvpump',
   links: {
     /** `{ca}` is replaced with the contract address. */
     buy: 'https://pump.fun/coin/{ca}',

@@ -7,7 +7,7 @@ Namn (**RFLX**), logga, favicon, banner och färger är klara. Det som fortfaran
 - [x] `name` – **RFLX** (wordmarket skalas automatiskt för namn längre än 3 tecken)
 - [x] `ticker` – `$RFLX`
 - [ ] `slogan` – footer och sidtitel
-- [ ] `contract` – riktig mint/kontraktsadress (platshållaren är 44 tecken)
+- [x] `contract` – `C5rHymhU1aWPybt4U3dKttvDN5WXcCW2Z74uKeUvpump`
 - [ ] `links.buy`, `links.dex` – kontrollera URL-mallarna (`{ca}` ersätts automatiskt)
 - [ ] `links.x` – X/Twitter-länk (tom = X-knappen döljs, som i referensen)
 - [ ] `routes` / `routesNarrow` – etiketterna i rutorna till höger om hjärnan

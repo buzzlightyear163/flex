@@ -1,6 +1,6 @@
 # RFLX (Vite + React + TypeScript)
 
-**RFLX** (uttalas "reflex") – byggt på layouten, komponenterna och interaktionerna från https://jevllm.fun/, men med eget namn, egen logga, egen text och egen färgpalett ("volt": elektrisk lime på grönsvart, violett som andrafärg). Kontraktsadress och länkar är fortfarande platshållare (se `BRANDING_TODO.md`).
+**RFLX** (uttalas "reflex") – byggt på layouten, komponenterna och interaktionerna från https://jevllm.fun/, men med eget namn, egen logga, egen text och egen färgpalett ("volt": elektrisk lime på grönsvart, violett som andrafärg). Kontraktsadressen är den riktiga pump.fun-minten; X-länken är fortfarande tom (se `BRANDING_TODO.md`).
 
 ## Starta
 
@@ -92,7 +92,7 @@ Referensen har ingen inloggning och ingen plånboksanslutning – bara länkar t
 | -------------------------------- | ------------------------------------------------------ |
 | Namn/wordmark "JEV", $JEV        | **RFLX** / `$RFLX` (wordmarket skalas automatiskt till 4 tecken) |
 | Färger: magenta + krämvit + blå  | lime `#c8ff2e` + kall vit `#e8efe9` + violett `#a48bff` på grönsvart `#050706` |
-| Kontraktsadress                  | 44 tecken lång platshållare                            |
+| Kontraktsadress                  | `C5rHymhU1aWPybt4U3dKttvDN5WXcCW2Z74uKeUvpump` |
 | Logotyp + favicon                | RFLX-märket "synapse" (samma som i `brand/`-grafiken)  |
 | All brödtext, rubriker, FAQ, docs | egen neutral text med ungefär samma längd             |
 | "Noul"-frågetypen                | heter "Gate" i UI:t (wire-format fortfarande `noul`)   |
